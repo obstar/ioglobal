@@ -1,0 +1,2 @@
+steps:
+  - command: "git clone https://github.com/input-output-hk/mantis.git"
