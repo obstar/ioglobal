@@ -8,7 +8,8 @@ echo "Kill old mantis client processes on the agent machine"
 processPid=$(pgrep -f '^.*mantis.*$')
 if [ -z "$processPid" ]
 then
-      echo "process Pid is empty"
+        echo "process Pid is empty"
 else
-      kill $processPid
+        kill $processPid
+        echo "mantis process PID \$processPid has been killed"
 fi
