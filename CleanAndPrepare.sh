@@ -11,5 +11,5 @@ then
         echo "process Pid is empty"
 else
         kill $processPid
-        echo "mantis process PID \$processPid has been killed"
+        echo "mantis process PID $processPid has been killed"
 fi
