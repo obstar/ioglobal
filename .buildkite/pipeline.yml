@@ -2,3 +2,4 @@ steps:
   - command: 
     - "./CleanAndPrepare.sh"
     - "./CompileAndRun.sh"
+    - "sleep 1m"
