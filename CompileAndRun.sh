@@ -1,5 +1,4 @@
 echo "  -> Compile"
-cd /Users/obstar/Repos/GitHub/mantis
 /Users/obstar/.sdkman/candidates/sbt/1.5.5/bin/sbt dist
 
 echo "  -> Unzip compiled build"
@@ -11,4 +10,5 @@ echo "      -> Go inside unzipped folder $name"
 cd $name
 
 echo "  -> Run mantis"
-nohup ./bin/mantis-launcher etc &
+cd bin
+nohup ./mantis-launcher etc &
