@@ -11,4 +11,4 @@ echo "      -> Go inside unzipped folder $name"
 cd $name
 
 echo "  -> Run mantis"
-/bin/mantis-launcher etc &!
+/bin/mantis-launcher etc &
