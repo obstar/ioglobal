@@ -1,5 +1,5 @@
 echo "  -> Compile"
-sbt dist || { echo 'sbt dist command failed' ; exit 1; }
+/Users/obstar/.sdkman/candidates/sbt/1.5.5/bin/sbt dist || { echo 'sbt dist command failed' ; exit 1; }
 
 echo "  -> Unzip compiled build and go inside folder"
 cd /Users/obstar/Repos/GitHub/mantis/target/universal/
