@@ -1,3 +1,6 @@
+echo "  -> Add SDKMAN_DIR"
+export SDKMAN_DIR="$HOME/.sdkman"[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
 echo "  -> Go inside git folder and refresh repository with new source files"
 cd /Users/obstar/Repos/GitHub/mantis
 git clean -fxd
