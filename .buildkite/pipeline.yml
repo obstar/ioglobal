@@ -1,3 +1,3 @@
 steps:
   - command: "CleanAndPrepare.sh"
-#  - command: "CompileAndRun.sh"
+  - command: "CompileAndRun.sh"
